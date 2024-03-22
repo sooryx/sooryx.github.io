@@ -1,59 +1,269 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Personal Portfolio Website - Sooryajith M Sajeev</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/b8f771ed94.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <!---------------------------------Navigation----------------------------------->
+                <nav>
+                    <img src="images/logo.png" class="logo">                      <!--LOGO Here-->
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                       
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#mycertificates">Certifications</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header-text">
+                    <p>Flutter Developer</p>
+                    <h1>Hi,I'm <span>Sooryajith </span><br>Sajeev from Kerala</h1>
+                </div>
+            </div>
+        </div>
+        <!--------------------------------projects---------------------------------->
+        <div id="projects">
+            <div class="container">
+                  <h1 class="sub-title">My Projects</h1>
+            <div class="projects-lists">
+                <div>
+                    <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                   <h2> Voice Assistant App with ChatGPT & Dall-E AI Image Generation</h2>
+                   <p>The "Voice Assistant App with ChatGPT & Dall-E AI Image Generation" project is a Flutter-based application that combines ChatGPT and Dall-E
+                    AI technologies to create a sophisticated voice assistant capable of understanding voice commands and generating responses in the form of
+                    texts and images in real-time</p>
+                   <a href="https://github.com/sooryx/VoiceAssistant">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-ban"></i>
+                    <h2> Drone Redzone</h2>
+                    <p>Drone Redzone is an Application used to Flag the locations of
+                        Private Properties by the user by setting and locating the radius of
+                        the Property.To avoid the government & Security based properties
+                        to maintain the confidentiality, so this App act as a bridge between
+                        the User , Company , Government to maintain the easy flow of new
+                        age deliveries.</p>
+                    <a href="docs/project_2.pdf">Learn more</a>
+                 </div>
+                 <div>
+                    <i class="fa-solid fa-plane"></i>
+                    <h2>Travel - Mobile Application </h2>
+                    <p>The "Flutter Travel App" is a mobile application that offers seamless
+                        travel planning, destination exploration, and booking functionalities. Powered by a Laravel backend, it integrates the Flutter framework to
+                        provide users with an intuitive UI, real-time data integration, and
+                        personalized recommendations.</p>
+                    <a href="https://github.com/sooryx/TravelApplication">Learn more</a>
+                 </div>
 
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
 
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+            </div>
+        </div>
+    </div>
+        
+<!--------------------------------------------Certificates------------------->
 
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="/">
+        <div id="mycertificates">
+            <div class="container">
+                <h1 class="sub-title">Certifications</h1>
+                <div class="certificate-list">
+                    <div class="certificates">
+                        <img src="images/c_1.png">
+                        <div class="layer">
+                            <h3>Cybersecurity Awareness: Cloud Security</h3>
+                            <p>Course completed on<u> Oct 21, 2022</u></p>
+                            <a href="https://www.linkedin.com/learning/certificates/e56be5fe5a81b727a828409d342ed9c3d11019bb87fdc18a7569ef2c1bb8bac4?u=92695330"> Show Certificate</a>
+                        </div>
+                    </div>
+                    <div class="certificates">
+                        <img src="images/c_2.png">
+                        <div class="layer">
+                        <h3>Software Testing Foundations: Test Techniques</h3>
+                        <p>Course completed on <u>Oct 21, 2022</u></p>
+                        <a href="https://www.linkedin.com/learning/certificates/e70bda3d006e830126a8d80b172b455946237706684fd9fafccf39475f084183">Show Certificate</a>
+                    </div>
+                    </div>
+                    <div class="certificates">
+                        <img src="images/c_3.png">
+                        <div class="layer">
+                        <h3>Cloud Security Architecture for the Enterprise</h3>
+                        <p>Course completed on <u>Jun 02, 2022</u></p>
+                        <a href="https://www.linkedin.com/learning/certificates/34b75cbcd21e5c376d2bf2f8281176f7f85e1e076622126ebbdf873d6f08dffd">Show Certificate</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+              <!--------------------------skills-------------->
+              <div id="skills">
+                <div class="container">
+                    <br><br><br><br><br>
+                <h1> Technical Skills</h1>
+            <br><br><br>
+                <div class="skillbar clearfix " data-percent="85%">
+                    <div class="skillbar-title" style="background: #ff004f;"><span>Flutter</span></div>
+                    <div class="skillbar-bar" style="background: #ff004f;"></div>
+                    <div class="skill-bar-percent Count">85</div>
+                </div>
+                <div class="skillbar clearfix " data-percent="80%">
+                    <div class="skillbar-title" style="background: #ff004f;"><span>Dart</span></div>
+                    <div class="skillbar-bar" style="background: #ff004f;"></div>
+                    <div class="skill-bar-percent Count">80</div>
+                </div> 
+                <div class="skillbar clearfix " data-percent="75%">
+                    <div class="skillbar-title" style="background: #ff004f;">
+                        <span>Github</span></div>
+                        <div class="skillbar-bar" style="background: #ff004f;"></div>
+                        <div class="skill-bar-percent Count">75</div>
+                    </div> 
+                    <div class="skillbar clearfix " data-percent="75%">
+                        <div class="skillbar-title" style="background: #ff004f;">
+                            <span>RESTfulAPIs</span></div>
+                            <div class="skillbar-bar" style="background: #ff004f;">
+                            </div><div class="skill-bar-percent Count">75</div>
+                        </div> 
 
-  <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content=""A new Flutter project."">
+                        <div class="skillbar clearfix " data-percent="70%">
+                            <div class="skillbar-title" style="background: #ff004f;">    
+                                <span> UI/UX</span></div>
+                                <div class="skillbar-bar" style="background: #ff004f;"></div>
+                                <div class="skill-bar-percent Count">70</div>
+                            </div> 
+                        </div> 
+                    </div>
+                </div>   
 
-  <!-- iOS meta tags & icons -->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="awesome_portfolio">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+<!---------------------------------------------about---------------------------------------->
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+                <div id="about">
+                    <div class="container">
+                        <div class="row">   
+                            <div class="about-col-1">
+                                <br><br><br><br><br>
+                                <img src="images/profilepic1.jpg">
+                            </div>
+                            <div class="about-col-2">
+                                <br><br><br><br><br>
+                                <h1 class="sub-title">About Me</h1>
+                                <p>I am currently working as a Flutter developer at Ezy Click, a dynamic startup that specializes in providing innovative mobile solutions. My role involves spearheading the development of user-friendly and efficient mobile applications, contributing to the company's mission of providing cost-effective solutions and personalized branding.</p><br>
+                                <p>Prior to my current role, I pursued my Master's in Computer Science and Information Technology at Jain University, following my successful completion of a Bachelor's degree in Computer Application from Sahrdaya College of Advanced Studies, Kodakara. My passion for learning and my adeptness in the realm of technology have equipped me to contribute significantly to the growth and success of Ezy Click.</p>
+                                
+                                    <div class="tab-titles">
+                                      
+                                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                                        <p class="tab-links" onclick="opentab('softskills')">Soft Skills</p>
+                                    </div>
+                                    <div class="tab-contents active-tab" id="education">
+                                        <ul>
+                                            <li><span>2021 - Current</span>   MSC Computer Science And Information Technology</li>
+                                            <li><span>2018 - 2021</span>  Bachelor Of Computer Applications</li>
+                                            <li><span>2016 - 2018</span>  Higher Secondary - Computer Science</li>
+                                        </ul>
+                                    </div>
+                                    <div class="tab-contents" id="softskills">
+                                        <ul>
+                                            <li><span>Team Player</span>  </li>
+                                            <li><span>Critical Thinking</span></li>
+                                            <li><span>Reasoning ability</span></li>
+                                            <li><span>Time management</span></li>
+                                            <li><span>Adaptability</span></li>
+                                        </ul>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                
+        <!--------------------------------contacts----------------->
 
-  <title>awesome_portfolio</title>
-  <link rel="manifest" href="manifest.json">
+        <div id="contact">
+         <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>   
+            <p><i class="fa-solid fa-paper-plane"></i>Contact @ sooryajithsajeev5@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>8848824788</p>
+            <div class="social-icons">
+                <a href="https://facebook.com/stuggastigganiggga"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/sooryajith5/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://instagram.com/sooryax"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+            <a href="docs/SOORYAJITH's Resume.pdf" download class="btn" >Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="text" name="number" placeholder="Your Whatsapp number">
+                    <textarea type="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn1"> Submit</button>
+                </form>
+            </div>
+            </div>
+            </div>
+         </div>
+         
+        </div>
 
-  <script>
-    // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "704432521";
-  </script>
-  <!-- This script adds the flutter initialization JS code -->
-  <script src="flutter.js" defer></script>
-</head>
-<body>
-  <script>
-    window.addEventListener('load', function(ev) {
-      // Download main.dart.js
-      _flutter.loader.loadEntrypoint({
-        serviceWorker: {
-          serviceWorkerVersion: serviceWorkerVersion,
-        },
-        onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
-            appRunner.runApp();
-          });
-        }
-      });
-    });
-  </script>
-</body>
+
+        <footer>
+            <div class="copyright">
+            <p>Made By Soorya</p><i class="fa-brands fa-android"></i>
+         </div>
+        </footer>
+
+
+
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            
+                
+            }
+        </script>
+       <script src="plugins/jquery.appear.min.js"></script>
+       
+       <script src="https://code.jquery.com/jquery-3.6.2.js"></script>
+       <script>
+        jQuery(document).ready(function(){
+	jQuery('.skillbar').each(function(){
+		jQuery(this).find('.skillbar-bar').animate({
+			width:jQuery(this).attr('data-percent')
+		},6000);
+	});
+});
+
+jQuery('.Count').each(function () {
+  var $this = $(this);
+  jQuery({ Counter: 0 }).animate({ Counter: $this.text() }, {
+    duration: 6000,
+    easing: 'swing',
+    step: function () {
+      $this.text(Math.ceil(this.Counter));
+    }
+  });
+});
+       </script>
+
+        
+     
+
+    </body>
 </html>
