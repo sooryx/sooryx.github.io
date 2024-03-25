@@ -147,38 +147,51 @@ nav ul li a:hover::after{
     padding: 30px 0;
 
 }
-.projects-lists{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
+.projects-lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     margin-top: 50px;
 }
-.projects-lists div{
+
+
+.projects-lists div {
     background: #262626;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
     border-radius: 10px;
     transition: background 0.5s, transform 0.5s;
-
+    flex-basis: calc(33.33% - 20px); /* Adjust margin between projects */
+    margin-bottom: 20px;
+    box-sizing: border-box; /* Ensure padding is included in width calculation */
+    width: calc(33.33% - 20px); /* Adjust width for 3 items in a row */
 }
-.projects-lists div i{
+
+/* Adjusting margin for the last item in a row */
+.projects-lists div:nth-child(3n) {
+    margin-right: 0;
+}
+.projects-lists div i {
     font-size: 50px;
     margin-bottom: 30px;
 }
-.projects-lists div h2{
+
+.projects-lists div h2 {
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 15px;
 }
-.projects-lists div a{
+
+.projects-lists div a {
     text-decoration: none;
     color: #fff;
     font-size: 12px;
     margin-top: 20px;
     display: inline-block;
 }
-.projects-lists div:hover{
+
+.projects-lists div:hover {
     background: #ff004f;
     transform: translateY(-10px);
 }
