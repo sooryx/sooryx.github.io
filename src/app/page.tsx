@@ -276,7 +276,7 @@ export default function Home() {
           <a href="https://sooryx.github.io/" target="_blank" className="text-neutral-400 hover:text-white transition-colors">Portfolio</a>
         </div>
         <p className="text-neutral-600 font-mono text-sm tracking-widest uppercase">
-          © {new Date().getFullYear()} Sooryajith Sajeev • Crafted with Next.js
+          © {new Date().getFullYear()} Sooryajith Sajeev
         </p>
       </footer>
     </main>
